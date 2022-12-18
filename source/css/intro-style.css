@@ -122,6 +122,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* slider */
 .slider {
+	border-radius: auto;
+	border: #333;
+
 	width: 100%;
 	
 	position: absolute;
@@ -148,11 +151,11 @@ h1,h2,h3,h4,h5,h6 {
 .contact {
 	display: inline-block;
 	vertical-align: top;
-	padding: 6px 10px;
+	padding: 6px 55px;
 	
 	text-decoration: none;
 	
-	color: rgb(0, 13, 134);
+	color: rgb(0, 0, 0);
 	
 	
 
