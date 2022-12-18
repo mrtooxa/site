@@ -1,0 +1,26 @@
+
+body {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+
+	font-size: 25px;
+	line-height: 1.2;
+}
+uj
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+
+.button{
+	text-decoration: none;
+	color: black;
+}
+.backbut{
+	text-decoration: none;
+	color: black;
+	
+}
