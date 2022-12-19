@@ -122,9 +122,8 @@ h1,h2,h3,h4,h5,h6 {
 
 /* slider */
 .slider {
-	border-radius: auto;
-	border: #333;
-
+	border:3px #333;
+	background-color: rgba(51, 51, 51, 0.616);
 	width: 100%;
 	
 	position: absolute;
@@ -156,7 +155,6 @@ h1,h2,h3,h4,h5,h6 {
 	text-decoration: none;
 	
 	color: rgb(0, 0, 0);
-	
 	
 
 }
