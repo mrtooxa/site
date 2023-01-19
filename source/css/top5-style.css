@@ -5,17 +5,107 @@ body {
 
 
 
-.text{
-    margin: 0 auto;
+.blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width 100%;
+	height 800px;
+
 	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
-    font-weight: bold;
+	font-weight: bold;
+}
+
+.intresting-places-in-blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width 100%;
+	height 1200 px;
+}
+
+.block1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.block2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.block3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.block4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.block5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.img-block {
+	width;
+	height;
+
+	margin;
+}
+
+.block-title {
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.0;
+	margin: 15px auto;
+	
+	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.), 10px 0 0 rgba(0, 0, 0, 0.);
+	padding: 10px 0 10px 0;
+}
+
+.block-button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px 15px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px solid;
+	padding: 6px;
+	transition: background .1s linear, color .1s linear;
+}
+
+.block-button:hover {
+	background-color: #fff;
+	color: #333;
 }
 
 .button{
 	text-decoration: none;
 	color: black;
 }
+
 .backbut{
 	text-decoration: none;
 	color: black;
