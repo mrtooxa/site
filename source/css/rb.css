@@ -12,8 +12,10 @@ body {
 }
 
 p {
-	margin: 0 auto;
+	margin-top: 0;
 	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .container {
@@ -23,6 +25,7 @@ p {
 
 .text-in-container {
 	margin: auto;
+
 	display: flex;
 	flex-direction: revert;
 	justify-content: left;
