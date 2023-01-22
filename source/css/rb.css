@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	font-family: 'Nunito', sans-serif;
 
-	font-size: 25px;
 	line-height: 1.2;
 }
 
@@ -12,18 +11,34 @@ body {
 	box-sizing: border-box;
 }
 
-
-.img{
-	margin: 0;
-}
-.text{
-
+p {
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
-.button{
+
+.container {
+	display: flex;
+	font-family: 'Nunito', sans-serif;
+}
+
+.text-in-container {
+	margin: auto;
+	display: flex;
+	flex-direction: revert;
+	justify-content: left;
+	font-size: 18px;
+
+	width: 800px;
+	height: auto;
+
+	border: 2px solid;
+}
+
+.button {
 	text-decoration: none;
 	color: black;
 }
+
 .backbut{
 	text-decoration: none;
 	color: black;

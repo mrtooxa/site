@@ -9,8 +9,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width 100%;
-	height 800px;
+	width: auto;
+	height: auto;
 
 	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
@@ -21,61 +21,79 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width 100%;
-	height 1200 px;
 }
 
 .block1 {
+	margin: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	border: 2px solid;
+	color: black;
+
+	background-image: url(../image/castle.png);
+	background-repeat: no-repeat;
+	
 }
 
 .block2 {
+	margin: 10px;
+	border: 2px solid;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	padding: 20px;
+
+
+	background-image: url(../image/nescatle.png);
+	background-repeat: no-repeat;
 }
 
 .block3 {
+	margin: 10px;
+	border: 2px solid;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	padding: 20px;
+
+	background-image: url(../image/brestcastle.png);
+	background-repeat: no-repeat;
 }
 
 .block4 {
+	margin: 10px;
+	border: 2px solid;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+	padding: 20px;
+
+	background-image: url(../image/parkbrsleaks.png);
+	background-repeat: no-repeat;
 }
 
 .block5 {
+	margin: 10px 10px 0px 10px;
+	border: 2px solid;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
-}
+	padding: 20px;
 
-.img-block {
-	width;
-	height;
-
-	margin;
+	background-image: url(../image/blforest.png);
+	background-repeat: no-repeat;
 }
 
 .block-title {
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: bold;
-	text-transform: uppercase;
 	text-align: center;
 	line-height: 1.0;
 	margin: 15px auto;
@@ -87,12 +105,12 @@ body {
 .block-button {
 	display: inline-block;
 	vertical-align: top;
-	padding: 6px 15px;
-	font-size: 15px;
+	padding: 6px 10px;
+	font-size: 13px;
 	font-weight: bold;
 	text-decoration: none;
 	border: 3px solid;
-	padding: 6px;
+	padding: 5px;
 	transition: background .1s linear, color .1s linear;
 }
 
