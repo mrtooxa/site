@@ -1,19 +1,114 @@
-
 body {
 	margin: 0;
 	font-family: 'Nunito', sans-serif;
-
-	font-size: 25px;
-	line-height: 1.2;
-}
-uj
-*,
-*:before,
-*:after {
-	box-sizing: border-box;
 }
 
 
+
+.blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.intresting-places-in-blocks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.block1 {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border: 2px solid;
+	color: black;
+	background-image: url(../image/belaz.png);
+	background-repeat: no-repeat;
+}
+
+.block2 {
+	margin: 10px;
+	border: 2px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-image: url(../image/mtz.png);
+	background-repeat: no-repeat;
+}
+
+.block3 {
+	margin: 10px;
+	border: 2px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-image: url(../image/);
+	background-repeat: no-repeat;
+}
+
+.block4 {
+	margin: 10px;
+	border: 2px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-image: url(../image/);
+	background-repeat: no-repeat;
+}
+
+.block5 {
+	margin: 10px 10px 0px 10px;
+	border: 2px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-image: url(../image/);
+	background-repeat: no-repeat;
+}
+
+.block-title {
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.0;
+	margin: 15px auto;
+	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.), 10px 0 0 rgba(0, 0, 0, 0.);
+	padding: 10px 0 10px 0;
+}
+
+.block-button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px 10px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px solid;
+	padding: 5px;
+	transition: background .1s linear, color .1s linear;
+}
+
+	.block-button:hover {
+		background-color: #fff;
+		color: #333;
+	}
 
 .button{
 	text-decoration: none;
