@@ -3,8 +3,6 @@ body {
 	font-family: 'Nunito', sans-serif;
 }
 
-
-
 .blocks {
 	display: flex;
 	flex-direction: column;
@@ -105,10 +103,10 @@ body {
 	transition: background .1s linear, color .1s linear;
 }
 
-	.block-button:hover {
+.block-button:hover {
 		background-color: #fff;
 		color: #333;
-	}
+}
 
 .button{
 	text-decoration: none;

@@ -13,7 +13,7 @@ body {
 	height: auto;
 
 	font-family: 'Nunito', sans-serif;
-	font-size: 14px;
+	font-size: 17px;
 	font-weight: bold;
 }
 
@@ -32,6 +32,10 @@ body {
 	padding: 10px;
 	border: 2px solid;
 	color: black;
+	
+	border-block-color: black;
+	border-left-color: black;
+	border-right-color: black;
 
 	background-image: url(../image/castle.png);
 	background-repeat: no-repeat;
@@ -45,8 +49,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 15px;
+	color: white;
 
+	border-block-color: black;
+	border-left-color: black;
+	border-right-color: black;
 
 	background-image: url(../image/nescatle.png);
 	background-repeat: no-repeat;
@@ -59,7 +67,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 15px;
 
 	background-image: url(../image/brestcastle.png);
 	background-repeat: no-repeat;
@@ -72,27 +80,32 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 15px;
 
-	background-image: url(../image/parkbrsleaks.png);
+	background-image: url(../image/parwskbrsleaks.png);
 	background-repeat: no-repeat;
 }
 
 .block5 {
-	margin: 10px 10px 0px 10px;
+	
+	margin: 10px 10px 15px 10px;
 	border: 2px solid;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 15px;
 
 	background-image: url(../image/blforest.png);
 	background-repeat: no-repeat;
 }
 
+.block2-title {
+	
+}
+
 .block-title {
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
 	line-height: 1.0;
@@ -112,6 +125,10 @@ body {
 	border: 3px solid;
 	padding: 5px;
 	transition: background .1s linear, color .1s linear;
+}
+
+.href-button {
+	text-decoration: none;
 }
 
 .block-button:hover {
