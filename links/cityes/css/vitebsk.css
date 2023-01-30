@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    background-color: #87CEFA;
+}
+
+.container {
+    display: flex;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background-color: white;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+}
+
+.backbut {
+    text-decoration: none;
+    color: black;
+}

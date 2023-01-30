@@ -3,6 +3,8 @@ body {
 	font-family: 'Nunito', sans-serif;
 
 	line-height: 1.2;
+
+	background-color: #87CEFA;
 }
 
 *,
@@ -21,19 +23,18 @@ p {
 .container {
 	display: flex;
 	font-family: 'Nunito', sans-serif;
+	
 }
 
 .text-in-container {
 	margin: auto;
-
+	background-color: white;
 	display: flex;
 	flex-direction: revert;
 	justify-content: left;
 	font-size: 18px;
-
 	width: 800px;
 	height: auto;
-
 	border: 2px solid;
 }
 
